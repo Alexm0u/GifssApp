@@ -47,7 +47,6 @@ constructor(private http: HttpClient) {
 
             if(this.tagsHistory.length === 0) return;
             this.searchTag (this.tagsHistory[0])
-           
         }
     
     searchTag (tag: string):void {
